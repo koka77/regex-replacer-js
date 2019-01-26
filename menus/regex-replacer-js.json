@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Converter regex-replacer-js",
+        "command": "regex-replacer-js:convert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "regex-replacer-js",
+          "submenu": [
+            {
+              "label": "converter",
+              "command": "regex-replacer-js:convert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
